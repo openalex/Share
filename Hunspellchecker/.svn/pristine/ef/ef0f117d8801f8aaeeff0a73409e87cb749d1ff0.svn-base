@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.CoreUtility.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.MicrosoftVisualStudioCoreUtilityDelegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости Microsoft.VisualStudio.CoreUtility</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.BaseDefinitionAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.#ctor(Microsoft.VisualStudio.Utilities.BaseDefinitionAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.BaseDefinitionGet">
+            <summary>Задает оболочка совместимости BaseDefinitionAttribute.get_BaseDefinition()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.ConstructorString">
+            <summary>Задает оболочка совместимости BaseDefinitionAttribute.BaseDefinitionAttribute(String name)</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimBaseDefinitionAttribute.AllInstances.BaseDefinitionGet">
+            <summary>Задает оболочка совместимости BaseDefinitionAttribute.get_BaseDefinition()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.ContentTypeAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.#ctor(Microsoft.VisualStudio.Utilities.ContentTypeAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.ConstructorString">
+            <summary>Задает оболочка совместимости ContentTypeAttribute.ContentTypeAttribute(String name)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.ContentTypesGet">
+            <summary>Задает оболочка совместимости ContentTypeAttribute.get_ContentTypes()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeAttribute.AllInstances.ContentTypesGet">
+            <summary>Задает оболочка совместимости ContentTypeAttribute.get_ContentTypes()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.ContentTypeDefinition</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.#ctor(Microsoft.VisualStudio.Utilities.ContentTypeDefinition)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.Constructor">
+            <summary>Задает оболочка совместимости ContentTypeDefinition.ContentTypeDefinition()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimContentTypeDefinition.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.DisplayNameAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.#ctor(Microsoft.VisualStudio.Utilities.DisplayNameAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.ConstructorString">
+            <summary>Задает оболочка совместимости DisplayNameAttribute.DisplayNameAttribute(String displayName)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.DisplayNameGet">
+            <summary>Задает оболочка совместимости DisplayNameAttribute.get_DisplayName()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimDisplayNameAttribute.AllInstances.DisplayNameGet">
+            <summary>Задает оболочка совместимости DisplayNameAttribute.get_DisplayName()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.FileExtensionAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.#ctor(Microsoft.VisualStudio.Utilities.FileExtensionAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.ConstructorString">
+            <summary>Задает оболочка совместимости FileExtensionAttribute.FileExtensionAttribute(String fileExtension)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.FileExtensionGet">
+            <summary>Задает оболочка совместимости FileExtensionAttribute.get_FileExtension()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionAttribute.AllInstances.FileExtensionGet">
+            <summary>Задает оболочка совместимости FileExtensionAttribute.get_FileExtension()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.#ctor(Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.Constructor">
+            <summary>Задает оболочка совместимости FileExtensionToContentTypeDefinition.FileExtensionToContentTypeDefinition()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimFileExtensionToContentTypeDefinition.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.MultipleBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.#ctor(Microsoft.VisualStudio.Utilities.MultipleBaseMetadataAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.Constructor">
+            <summary>Задает оболочка совместимости MultipleBaseMetadataAttribute.MultipleBaseMetadataAttribute()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimMultipleBaseMetadataAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.NameAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.#ctor(Microsoft.VisualStudio.Utilities.NameAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.ConstructorString">
+            <summary>Задает оболочка совместимости NameAttribute.NameAttribute(String name)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.NameGet">
+            <summary>Задает оболочка совместимости NameAttribute.get_Name()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimNameAttribute.AllInstances.NameGet">
+            <summary>Задает оболочка совместимости NameAttribute.get_Name()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.OrderAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.#ctor(Microsoft.VisualStudio.Utilities.OrderAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AfterGet">
+            <summary>Задает оболочка совместимости OrderAttribute.get_After()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AfterSetString">
+            <summary>Задает оболочка совместимости OrderAttribute.set_After(String value)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.BeforeGet">
+            <summary>Задает оболочка совместимости OrderAttribute.get_Before()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.BeforeSetString">
+            <summary>Задает оболочка совместимости OrderAttribute.set_Before(String value)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.Constructor">
+            <summary>Задает оболочка совместимости OrderAttribute.OrderAttribute()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AllInstances.AfterGet">
+            <summary>Задает оболочка совместимости OrderAttribute.get_After()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AllInstances.AfterSetString">
+            <summary>Задает оболочка совместимости OrderAttribute.set_After(String value)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AllInstances.BeforeGet">
+            <summary>Задает оболочка совместимости OrderAttribute.get_Before()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderAttribute.AllInstances.BeforeSetString">
+            <summary>Задает оболочка совместимости OrderAttribute.set_Before(String value)</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.Orderer</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.OrderOf2IEnumerableOfLazyOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{System.Lazy{``0,``1}},System.Collections.Generic.IList{System.Lazy{``0,``1}}})">
+            <summary>Задает оболочка совместимости Orderer.Order(IEnumerable`1&lt;Lazy`2&lt;!!0,!!1&gt;&gt; itemsToOrder)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.TryGetNodeDetailsOf2LazyOfM0M1StringOutIEnumerableOfStringOutIEnumerableOfStringOut``2(Microsoft.QualityTools.Testing.Fakes.Delegates.MicrosoftVisualStudioCoreUtilityDelegates.Out1Out2Out3Func5{System.Lazy{``0,``1},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean})">
+            <summary>Задает оболочка совместимости Orderer.TryGetNodeDetails(Lazy`2&lt;!!0,!!1&gt; item, String&amp; name, IEnumerable`1&lt;String&gt;&amp; comesBeforeItem, IEnumerable`1&lt;String&gt;&amp; comesAfterItem)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimOrderer.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.PropertyCollection</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.#ctor(Microsoft.VisualStudio.Utilities.PropertyCollection)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.GetOrCreateSingletonPropertyOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0},``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetOrCreateSingletonProperty(Func`1&lt;!!0&gt; creator)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.GetOrCreateSingletonPropertyOf1ObjectFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,System.Func{``0},``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetOrCreateSingletonProperty(Object key, Func`1&lt;!!0&gt; creator)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.GetPropertyOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetProperty(Object key)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.TryGetPropertyOf1ObjectM0Out``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.OutFunc{System.Object,``0,System.Boolean})">
+            <summary>Задает оболочка совместимости PropertyCollection.TryGetProperty(Object key, !!0&amp; property)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AddPropertyObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.AddProperty(Object key, Object property)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.Constructor">
+            <summary>Задает оболочка совместимости PropertyCollection.PropertyCollection()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.ContainsPropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.ContainsProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.GetPropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.GetProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.ItemGetObject">
+            <summary>Задает оболочка совместимости PropertyCollection.get_Item(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.ItemSetObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.set_Item(Object key, Object value)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.PropertyListGet">
+            <summary>Задает оболочка совместимости PropertyCollection.get_PropertyList()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.RemovePropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.RemoveProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.SetPropertyObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.SetProperty(Object key, Object property)</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.GetOrCreateSingletonPropertyOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.VisualStudio.Utilities.PropertyCollection,System.Func{``0},``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetOrCreateSingletonProperty(Func`1&lt;!!0&gt; creator)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.GetOrCreateSingletonPropertyOf1ObjectFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.VisualStudio.Utilities.PropertyCollection,System.Object,System.Func{``0},``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetOrCreateSingletonProperty(Object key, Func`1&lt;!!0&gt; creator)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.GetPropertyOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.VisualStudio.Utilities.PropertyCollection,System.Object,``0})">
+            <summary>Задает оболочка совместимости PropertyCollection.GetProperty(Object key)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.TryGetPropertyOf1ObjectM0Out``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.OutFunc{Microsoft.VisualStudio.Utilities.PropertyCollection,System.Object,``0,System.Boolean})">
+            <summary>Задает оболочка совместимости PropertyCollection.TryGetProperty(Object key, !!0&amp; property)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.AddPropertyObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.AddProperty(Object key, Object property)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.ContainsPropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.ContainsProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.GetPropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.GetProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.ItemGetObject">
+            <summary>Задает оболочка совместимости PropertyCollection.get_Item(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.ItemSetObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.set_Item(Object key, Object value)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.PropertyListGet">
+            <summary>Задает оболочка совместимости PropertyCollection.get_PropertyList()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.RemovePropertyObject">
+            <summary>Задает оболочка совместимости PropertyCollection.RemoveProperty(Object key)</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimPropertyCollection.AllInstances.SetPropertyObjectObject">
+            <summary>Задает оболочка совместимости PropertyCollection.SetProperty(Object key, Object property)</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute">
+            <summary>Тип оболочки совместимости для Microsoft.VisualStudio.Utilities.SingletonBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.#ctor(Microsoft.VisualStudio.Utilities.SingletonBaseMetadataAttribute)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.Constructor">
+            <summary>Задает оболочка совместимости SingletonBaseMetadataAttribute.SingletonBaseMetadataAttribute()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.ShimSingletonBaseMetadataAttribute.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IContentType</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIContentType</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.BaseTypesGet">
+            <summary>Задает stub IContentType.get_BaseTypes()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.DisplayNameGet">
+            <summary>Задает stub IContentType.get_DisplayName()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.IsOfTypeString">
+            <summary>Задает stub IContentType.IsOfType(String type)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.mvscu::Microsoft#VisualStudio#Utilities#IContentType#IsOfType(System.String)">
+            <summary>Задает заглушка IContentType.IsOfType(String type)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.TypeNameGet">
+            <summary>Задает stub IContentType.get_TypeName()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.mvscu::Microsoft#VisualStudio#Utilities#IContentType#BaseTypes">
+            <summary>Задает stub IContentType.get_BaseTypes()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.mvscu::Microsoft#VisualStudio#Utilities#IContentType#DisplayName">
+            <summary>Задает stub IContentType.get_DisplayName()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentType.mvscu::Microsoft#VisualStudio#Utilities#IContentType#TypeName">
+            <summary>Задает stub IContentType.get_TypeName()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IContentTypeDefinition</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIContentTypeDefinition</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition.BaseDefinitionsGet">
+            <summary>Задает stub IContentTypeDefinition.get_BaseDefinitions()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition.NameGet">
+            <summary>Задает stub IContentTypeDefinition.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeDefinition#BaseDefinitions">
+            <summary>Задает stub IContentTypeDefinition.get_BaseDefinitions()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinition.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeDefinition#Name">
+            <summary>Задает stub IContentTypeDefinition.get_Name()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinitionSource">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IContentTypeDefinitionSource</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinitionSource.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIContentTypeDefinitionSource</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinitionSource.DefinitionsGet">
+            <summary>Задает stub IContentTypeDefinitionSource.get_Definitions()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeDefinitionSource.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeDefinitionSource#Definitions">
+            <summary>Задает stub IContentTypeDefinitionSource.get_Definitions()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IContentTypeRegistryService</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIContentTypeRegistryService</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.AddContentTypeStringIEnumerableOfString">
+            <summary>Задает stub IContentTypeRegistryService.AddContentType(String typeName, IEnumerable`1&lt;String&gt; baseTypeNames)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.ContentTypesGet">
+            <summary>Задает stub IContentTypeRegistryService.get_ContentTypes()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.GetContentTypeString">
+            <summary>Задает stub IContentTypeRegistryService.GetContentType(String typeName)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeRegistryService#AddContentType(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>Задает заглушка IContentTypeRegistryService.AddContentType(String typeName, IEnumerable`1&lt;String&gt; baseTypeNames)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeRegistryService#GetContentType(System.String)">
+            <summary>Задает заглушка IContentTypeRegistryService.GetContentType(String typeName)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeRegistryService#RemoveContentType(System.String)">
+            <summary>Задает заглушка IContentTypeRegistryService.RemoveContentType(String typeName)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.RemoveContentTypeString">
+            <summary>Задает stub IContentTypeRegistryService.RemoveContentType(String typeName)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.UnknownContentTypeGet">
+            <summary>Задает stub IContentTypeRegistryService.get_UnknownContentType()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeRegistryService#ContentTypes">
+            <summary>Задает stub IContentTypeRegistryService.get_ContentTypes()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIContentTypeRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IContentTypeRegistryService#UnknownContentType">
+            <summary>Задает stub IContentTypeRegistryService.get_UnknownContentType()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IFileExtensionRegistryService</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIFileExtensionRegistryService</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.AddFileExtensionStringIContentType">
+            <summary>Задает stub IFileExtensionRegistryService.AddFileExtension(String extension, IContentType contentType)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.GetContentTypeForExtensionString">
+            <summary>Задает stub IFileExtensionRegistryService.GetContentTypeForExtension(String extension)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.GetExtensionsForContentTypeIContentType">
+            <summary>Задает stub IFileExtensionRegistryService.GetExtensionsForContentType(IContentType contentType)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IFileExtensionRegistryService#AddFileExtension(System.String,Microsoft.VisualStudio.Utilities.IContentType)">
+            <summary>Задает заглушка IFileExtensionRegistryService.AddFileExtension(String extension, IContentType contentType)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IFileExtensionRegistryService#GetContentTypeForExtension(System.String)">
+            <summary>Задает заглушка IFileExtensionRegistryService.GetContentTypeForExtension(String extension)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IFileExtensionRegistryService#GetExtensionsForContentType(Microsoft.VisualStudio.Utilities.IContentType)">
+            <summary>Задает заглушка IFileExtensionRegistryService.GetExtensionsForContentType(IContentType contentType)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.mvscu::Microsoft#VisualStudio#Utilities#IFileExtensionRegistryService#RemoveFileExtension(System.String)">
+            <summary>Задает заглушка IFileExtensionRegistryService.RemoveFileExtension(String extension)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIFileExtensionRegistryService.RemoveFileExtensionString">
+            <summary>Задает stub IFileExtensionRegistryService.RemoveFileExtension(String extension)</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IOrderable</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIOrderable</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.AfterGet">
+            <summary>Задает stub IOrderable.get_After()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.BeforeGet">
+            <summary>Задает stub IOrderable.get_Before()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.NameGet">
+            <summary>Задает stub IOrderable.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.mvscu::Microsoft#VisualStudio#Utilities#IOrderable#After">
+            <summary>Задает stub IOrderable.get_After()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.mvscu::Microsoft#VisualStudio#Utilities#IOrderable#Before">
+            <summary>Задает stub IOrderable.get_Before()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIOrderable.mvscu::Microsoft#VisualStudio#Utilities#IOrderable#Name">
+            <summary>Задает stub IOrderable.get_Name()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubIPropertyOwner">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.IPropertyOwner</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubIPropertyOwner.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIPropertyOwner</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubIPropertyOwner.PropertiesGet">
+            <summary>Задает stub IPropertyOwner.get_Properties()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubIPropertyOwner.mvscu::Microsoft#VisualStudio#Utilities#IPropertyOwner#Properties">
+            <summary>Задает stub IPropertyOwner.get_Properties()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.MultipleBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.Equals(System.Object)">
+            <summary>Задает заглушка Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.EqualsObject">
+            <summary>Задает stub Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.GetHashCode">
+            <summary>Задает заглушка Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.GetHashCode01">
+            <summary>Задает stub Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubMultipleBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.IsDefaultAttribute">
+            <summary>Задает заглушка Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.IsDefaultAttribute01">
+            <summary>Задает stub Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.Match(System.Object)">
+            <summary>Задает заглушка Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.MatchObject">
+            <summary>Задает stub Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.TypeIdGet">
+            <summary>Задает stub Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubMultipleBaseMetadataAttribute.TypeId">
+            <summary>Задает stub Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.PropertyCollection</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubPropertyCollection</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubPropertyCollection.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute">
+            <summary>Тип заглушки Microsoft.VisualStudio.Utilities.SingletonBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.Equals(System.Object)">
+            <summary>Задает заглушка Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.EqualsObject">
+            <summary>Задает stub Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.GetHashCode">
+            <summary>Задает заглушка Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.GetHashCode01">
+            <summary>Задает stub Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubSingletonBaseMetadataAttribute</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.IsDefaultAttribute">
+            <summary>Задает заглушка Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.IsDefaultAttribute01">
+            <summary>Задает stub Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.Match(System.Object)">
+            <summary>Задает заглушка Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.MatchObject">
+            <summary>Задает stub Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.TypeIdGet">
+            <summary>Задает stub Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Utilities.Fakes.StubSingletonBaseMetadataAttribute.TypeId">
+            <summary>Задает stub Attribute.get_TypeId()</summary>
+        </member>
+    </members>
+</doc>
